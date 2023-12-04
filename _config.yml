@@ -1,11 +1,42 @@
-title: Learning Library for Jaren
-email: jarenw@163.com
-#description: >- # 这是您网站的描述
-  #这是王杰的个人网站
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# Build settings
-markdown: kramdown
+# 网站标题
+title:  Learning Library for Jaren
+
+# 网站描述
+# description: 这是我的个人网站，使用 jekyll-theme-cayman 主题。
+
+# 基础 URL（如果你的网站放在子路径下，比如 `https://username.github.io/myblog/`，则应设置为 `/myblog`。如果是根路径，则保持为空）
+baseurl: "/learn"
+
+# 服务器 URL（用于本地开发，通常保持为默认）
+url: "http://localhost:4000"
+
+# 使用的 Jekyll 主题
 theme: jekyll-theme-cayman
-# plugins: - jekyll-feed
+
+# 作者信息（可选）
+author:
+  name: Jaren
+  email: jarenw@163.com
+
+# 构建设置
+# GitHub Pages 站点可能需要
+include:
+  - _pages
+
+# 插件（如果你使用 GitHub Pages，可能不需要这部分）
+plugins:
+  - jekyll-feed
+
+# SEO 标签（可选，但推荐用于提高搜索引擎优化）
+seo:
+  name: Jaren
+  links:
+    - label: "GitHub"
+      url: https://github.com/JarenWa
+    - label: "LinkedIn"
+      url: https://www.linkedin.com/in/JarenWa
+
+# 网站语言（可选）
+lang: zh-CN
+
 
