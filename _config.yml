@@ -1,26 +1,11 @@
-# title: JarenWa.github.io
+title: Learning Library for Jaren
 email: jarenw@163.com
 #description: >- # 这是您网站的描述
   #这是王杰的个人网站
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
-
 # Build settings
 markdown: kramdown
-# theme: minima # 默认主题有些问题（字体等），取消使用
-# remote_theme: daattali/beautiful-jekyll # 在线支持 太慢
-# theme: Hacker
-# theme: Midnight
-plugins:
-  - jekyll-feed
+theme: jekyll-theme-cayman
+# plugins: - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
