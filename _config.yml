@@ -11,6 +11,7 @@ markdown: kramdown
 # remote_theme: daattali/beautiful-jekyll # 在线支持 太慢
 # theme: Hacker
 # theme: Midnight
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
