@@ -47,7 +47,6 @@
 
 - <a href="/courses/cs61b/notes.html"> My Notes (Based on spring 2021)</a><br>
 
-- <a href="{% post_url tech/courses/cs61b/2023-11-26-labs %}"> Labs Challenges & Fixes (Based on spring 2021)</a><br>
 
 - Other References：<br>
 
