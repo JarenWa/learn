@@ -39,9 +39,9 @@
 
 - <a href="https://inst.eecs.berkeley.edu/~cs61b/sp21/" target="_blank">Spring 2021</a><br>
 
-- <a href="../courses/cs61b/2023-11-26-notes.html"> My Notes (Based on spring 2021)</a><br>
+- <a href="../courses/cs61b/notes.md"> My Notes (Based on spring 2021)</a><br>
 
-- <a href="/courses/cs61b/2023-11-26-notes.html"> My Notes (Based on spring 2021)</a><br>
+- <a href="/courses/cs61b/notes.md"> My Notes (Based on spring 2021)</a><br>
 
 - <a href="../courses/cs61b/notes.html"> My Notes (Based on spring 2021)</a><br>
 
