@@ -31,7 +31,7 @@
 
 ---
 
-<h1><a href="./learnpages/courses.html"><span style="color: #FFFACD">课程收录</span></a> <h1>
+<h1><a href="./learnpages/courses.html"><span style="color: #FFFACD">课程收录</span></a></h1>
 
 # [工具](./tets/aa.md)
 
