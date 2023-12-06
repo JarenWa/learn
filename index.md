@@ -38,7 +38,7 @@
 
 <div align="center">
 <h1><a href="./tools/operate/operate.html"><span style="color: #87CEEB">工具</span></a></h1>
-shell | git | vim |......
+shell | git | vim | docker | mysql | ......
 </div>
 
 ---
@@ -53,7 +53,7 @@ shell | git | vim |......
 ---
 
  <div align="center">
- <h1>算法学习</h1>
+ <h1><a href="./algorithm/2023-11-07-exer-dmxsl.html"><span style="color: #FFFACD">算法学习</span></a></h1>
  </div>
 
 ---
@@ -67,7 +67,7 @@ shell | git | vim |......
  <div align="center">
   <h1><a href="./learnpages/projects.html"><span style="color: #98FF98">项目列表</span></a></h1>
 
-  项目0 仿牛客论坛 | ......
+  Halo(未二次开发) | 仿牛客论坛 | ......
  </div>
 
 
