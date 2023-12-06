@@ -38,7 +38,7 @@
 
 <div align="center">
 <h1><a href="./tools/operate/operate.html"><span style="color: #87CEEB">工具</span></a></h1>
-shell | git | vim
+shell | git | vim |......
 </div>
 
 ---
@@ -46,8 +46,6 @@ shell | git | vim
  <div align="center">
   <span style="font-size: 38px; color: #90EE90 ">Java</span>
  </div>
-
----
  
 ## [Java基础](./learnpages/java.md)
 ## [SSM](./learnpages/SSM.md)
@@ -60,16 +58,9 @@ shell | git | vim
 
 ---
 
-
-
----
-
  <div align="center">
  <h1>计算机基础</h1>
  </div>
-
----
-
 
 ---
 
