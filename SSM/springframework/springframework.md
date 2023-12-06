@@ -4,7 +4,7 @@ title: "springframework"
 date: 2023-11-15
 permalink: /tech/SSM/springframework/
 ---
-<p style="font-size:20px;">SpringFramework</p>
+<p style="font-size:30px;">SpringFramework</p>
 <a href="https://zhuanlan.zhihu.com/p/557762402" target="_blank">真香！这篇文章终于让我弄懂了啥是Spring framework - 知乎</a>
 <p style="font-size:20px;">目录</p>
 <!-- TOC -->

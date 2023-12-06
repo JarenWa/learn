@@ -15,13 +15,13 @@
 - mybatis：orm模型的数据库连接框架，主要用于javaweb项目dao层的实现。
 - maven：主流的项目管理工具，用于管理项目依赖和项目构建，与其功能相近的有gradle、cmake、ant、nant
 
-## 补充
+### 补充
 Tomcat 是一个Web应用服务器
 
 <p style="font-size:20px;">目录</p>
 
 ## [Maven](../SSM/maven.md)
 
-## [Spring Framework](../SSM/springframework.md)
+## [Spring Framework](../SSM/springframework/springframework.md)
 
-## [Spring MVC](../SSM/SpringMVC/SpringMVC.md)
+## [Spring MVC](../SSM/springMVC/springMVC.md)

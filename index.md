@@ -31,7 +31,7 @@
 
 ---
  <div align="center">
-<h1><a href="./learnpages/courses.html"><span style="color: #FFFACD">课程收录</span></a></h1>
+<h1><a href="./learnpages/courses.html"><span style="color: #FF7F50">课程收录</span></a></h1>
 </div>
 
 ---
@@ -52,6 +52,15 @@ shell | git | vim
 ## [Java基础](./learnpages/java.md)
 ## [SSM](./learnpages/SSM.md)
 
+---
+
+ <div align="center">
+ <h1>算法学习</h1>
+ </div>
+
+---
+
+
 
 ---
 
@@ -65,7 +74,7 @@ shell | git | vim
 ---
 
  <div align="center">
-  <h1><a href="./learnpages/projects.html"><span style="color: #FFFACD">项目列表</span></a></h1>
+  <h1><a href="./learnpages/projects.html"><span style="color: #98FF98">项目列表</span></a></h1>
 
   项目0 仿牛客论坛 | ......
  </div>
