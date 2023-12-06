@@ -14,7 +14,6 @@
         - [Spring Boot](#spring-boot)
         - [开发时, 关闭 Thymeleaf 缓存](#开发时-关闭-thymeleaf-缓存)
         - [MYSQL](#mysql)
-- [一些概念](#一些概念)
 
 <!-- /TOC -->
 
@@ -47,6 +46,8 @@ Java HotSpot(TM) 64-Bit Server VM warning: Options -Xverify:none and -noverify w
 # 环境搭建
 ## 本地文件管理
 项目文件：D:\MyGitProject\community<br>
+新项目（全程git管理）改到了：
+D:\MyGitProject\project0\community<br>
 Maven本地仓库：D:\code\Maven\repo<br>
 Maven：D:\Tools\Maven\apache-maven-3.6.3<br>
 Maven的配置文件：D:\Tools\Maven\apache-maven-3.6.3\conf\settings.xml<br>
@@ -150,13 +151,3 @@ mysql> SHOW VARIABLES LIKE 'datadir';
 
 
 
-
-# 一些概念
-配置类：
-
-
-
-Http等协议
-https://www.ietf.org/
-易读：
-https://developer.mozilla.org/zh-CN/

@@ -1,4 +1,30 @@
 
+
+<!-- TOC -->
+
+- [Git](#git)
+    - [一些实用操作](#一些实用操作)
+    - [版本管理](#版本管理)
+- [shell(使用 Bourne Again SHell)](#shell使用-bourne-again-shell)
+- [VIM](#vim)
+    - [移动](#移动)
+    - [复制粘贴](#复制粘贴)
+
+<!-- /TOC -->
+
+
+# Git
+## 一些实用操作
+<https://blog.csdn.net/weixin_43528833/article/details/100805780>
+
+## 版本管理
+<a href="https://blog.csdn.net/s_y_w123/article/details/107087382">git获取指定历史版本代码</a>
+
+
+
+
+# shell(使用 Bourne Again SHell)
+
 Windows终端和Linux终端一些区别，包括以下几点：
 
 1. 操作系统：Windows终端是Windows操作系统的一部分，而Linux终端则是Linux操作系统的一部分。
@@ -15,9 +41,6 @@ Windows终端和Linux终端一些区别，包括以下几点：
 
 
 Windows终端的默认提示符为"C:\Users\用户名>"，其中"用户名"是您当前登录的Windows用户的用户名。
-
-# shell(使用 Bourne Again SHell)
-
 
 
 # VIM
@@ -40,12 +63,3 @@ h/j/k/l
 复制y
 
 粘贴p
-
-
-ssdkgufhj
-
-
-snhjkdkgufhj
-snhjkdkgufhj
-dsahjkgvjbmcn 
-shldklfahgbnv

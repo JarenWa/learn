@@ -7,14 +7,26 @@ permalink: /tech/SSM/springframework/
 <p style="font-size:20px;">SpringFramework</p>
 <a href="https://zhuanlan.zhihu.com/p/557762402" target="_blank">真香！这篇文章终于让我弄懂了啥是Spring framework - 知乎</a>
 <p style="font-size:20px;">目录</p>
-<a href ="#1"> 1 SpringFramework </a><br>
-<a href ="#2"> 2 Spring IoC </a><br>
-<a href ="#3"> 3 Spring AOP </a><br>
-<a href ="#4"> 4 Spring 声明式事务 </a><br>
-<a href ="#5"> 5 总结 </a><br>
+<!-- TOC -->
 
-<h1 id="1"> 1 SpringFramework</h1>
+- [1 SpringFramework](#1-springframework)
+    - [SpringFramework 主要功能模块](#springframework-主要功能模块)
+    - [SpringFramework 主要优势](#springframework-主要优势)
+- [2 Spring IoC](#2-spring-ioc)
+    - [组件和组件管理](#组件和组件管理)
+    - [Spring IoC 容器](#spring-ioc-容器)
+        - [Spring IoC 容器接口](#spring-ioc-容器接口)
+        - [ApplicationContext 容器实现类](#applicationcontext-容器实现类)
+    - [Spring 框架的配置方式](#spring-框架的配置方式)
+        - [XML配置](#xml配置)
+        - [注解](#注解)
+        - [Java配置类](#java配置类)
+- [3 Spring AOP](#3-spring-aop)
+- [4 Spring 声明式事务](#4-spring-声明式事务)
+- [5 总结](#5-总结)
 
+<!-- /TOC -->
+# 1 SpringFramework
 ## SpringFramework 主要功能模块
 
 |功能模块|功能介绍|
@@ -30,7 +42,12 @@ permalink: /tech/SSM/springframework/
 
 
 
-<h1 id="2"> 2 Spring IoC</h1>
+# 2 Spring IoC
+Inversion of Control 控制反转，面向对象编程设计思想。
+
+降低bean之间的耦合
+
+IoC通过依赖注入实现，IoC容器是实现依赖注入的关键。
 
 ## 组件和组件管理
 组件：可以复用的java对象
@@ -54,12 +71,18 @@ Spring 充当组件管理
 
 ### ApplicationContext 容器实现类
 
+## Spring 框架的配置方式
+### XML配置
+### 注解
+### Java配置类
 
-<h1 id="3"> 3 Spring AOP</h1>
 
-<h1 id="4"> 4 Spring 声明式事务 </h1>
 
-<h1 id="5"> 5 总结 </h1>
+# 3 Spring AOP
+
+# 4 Spring 声明式事务
+
+# 5 总结
 
 
 

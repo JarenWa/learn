@@ -26,8 +26,6 @@
 ## MIT 6.NULL: The Missing Semester of Your CS Education
 - <a href="https://missing.csail.mit.edu/" target="_blank">MIT 6.NULL</a><br>
 
-- My Notes<br>
-
 - Other References：<br>
 
     - <a href="https://segmentfault.com/a/1190000039107866" target="_blank">wine99's blog</a><br>
@@ -39,13 +37,9 @@
 
 - <a href="https://inst.eecs.berkeley.edu/~cs61b/sp21/" target="_blank">Spring 2021</a><br>
 
-- <a href="../courses/cs61b/notes.html"> My Notes (Based on spring 2021)</a><br>
-
 - <a href="../courses/cs61b/2023-11-26-notes.html"> My Notes (Based on spring 2021)</a><br>
 
-
-
-
+- <a href="../courses/cs61b/2023-11-26-labs.html"> Labs Challenges & Fixes (Based on spring 2021)</a><br>
 
 - Other References：<br>
 
@@ -62,7 +56,7 @@
 
 - <a href="https://web.mit.edu/6.031/www/sp21/" target="_blank">Spring 2021</a><br>
 
-- My Notes (Based on spring 2021)<br>
+- <a href="../courses/mit6.031/2023-11-28-notes.html">My Notes (Based on spring 2021)</a><br>
 
 # Computer Network
 ## Stanford CS144: Computer Network

@@ -30,17 +30,16 @@
 </div>
 
 ---
-
+ <div align="center">
 <h1><a href="./learnpages/courses.html"><span style="color: #FFFACD">课程收录</span></a></h1>
+</div>
 
-# [工具](./tets/aa.md)
+---
 
-
-
-
-
-
-
+<div align="center">
+<h1><a href="./tools/operate/operate.html"><span style="color: #87CEEB">工具</span></a></h1>
+shell | git | vim
+</div>
 
 ---
 
@@ -50,8 +49,8 @@
 
 ---
  
-# [Java基础]()
-# [SSM](./learnpages/SSM.md)
+## [Java基础](./learnpages/java.md)
+## [SSM](./learnpages/SSM.md)
 
 
 ---
@@ -66,11 +65,11 @@
 ---
 
  <div align="center">
-  <a href="./learnpages/projects.html"><span style="font-size: 38px; color: #FFFACD">项目列表</span></a>
+  <h1><a href="./learnpages/projects.html"><span style="color: #FFFACD">项目列表</span></a></h1>
+
+  项目0 仿牛客论坛 | ......
  </div>
 
 
 
 ---
-
-# 项目0 仿牛客论坛

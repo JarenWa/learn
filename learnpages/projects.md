@@ -10,5 +10,7 @@
 # 项目0 仿牛客论坛
 2023/12 --
 
-[开发社区首页](../projects/nowcoder/开发社区首页/130.md)
+[Challenges & Fixes](../projects/nowcoder/notes.md)
+
+[开发社区首页](../projects/nowcoder/01homepage/01.md)
 
