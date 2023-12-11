@@ -10,7 +10,23 @@
 ## 项目0 仿牛客论坛
 2023/12 --
 
+---
+
+Java Web 项目开发流程和设计技术详细梳理
+
+<记录一下>
+
+<https://www.zhihu.com/question/428269354>
+
+
+
+---
+
+
 Http等协议:<https://www.ietf.org/>易读：<https://developer.mozilla.org/zh-CN/>
+
+
+---
 
 [Challenges & Fixes](../projects/nowcoder/notes.md)
 

@@ -20,8 +20,21 @@ Tomcat 是一个Web应用服务器
 
 <p style="font-size:20px;">目录</p>
 
+---
+
 ## [Maven](../SSM/maven.md)
 
+---
+
 ## [Spring Framework](../SSM/springframework/springframework.md)
+
+<a href="https://zhuanlan.zhihu.com/p/557762402" target="_blank">真香！这篇文章终于让我弄懂了啥是Spring framework - 知乎</a>
+
+<a href="https://zhuanlan.zhihu.com/p/57747179" target="_blank">为什么我们需要依赖注入？</a>
+
+<a href="https://zhuanlan.zhihu.com/p/67032669" target="_blank">理解依赖注入（DI – Dependency Injection）</a>
+
+
+---
 
 ## [Spring MVC](../SSM/springMVC/springMVC.md)

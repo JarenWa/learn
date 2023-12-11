@@ -44,6 +44,12 @@ shell | git | vim | docker | mysql | ......
 ---
 
  <div align="center">
+<h1><a href="./learnpages/linux.html"><span style="color: #FF7F50">Linux</span></a></h1>
+</div>
+
+---
+
+ <div align="center">
   <span style="font-size: 38px; color: #90EE90 ">Java</span>
  </div>
  

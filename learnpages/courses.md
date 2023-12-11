@@ -15,6 +15,8 @@
     - [UCB CS61B: Data Structures and Algorithms](#ucb-cs61b-data-structures-and-algorithms)
 - [Software Engineering](#software-engineering)
     - [MIT 6.031: Software Construction](#mit-6031-software-construction)
+- [Operating System](#operating-system)
+    - [MIT 6.S081: Operating System Engineering](#mit-6s081-operating-system-engineering)
 - [Computer Network](#computer-network)
     - [Stanford CS144: Computer Network](#stanford-cs144-computer-network)
 - [Distributed Systems](#distributed-systems)
@@ -57,6 +59,15 @@
 - <a href="https://web.mit.edu/6.031/www/sp21/" target="_blank">Spring 2021</a><br>
 
 - <a href="../courses/mit6.031/2023-11-28-notes.html">My Notes (Based on spring 2021)</a><br>
+
+# Operating System
+## MIT 6.S081: Operating System Engineering
+- <a href="https://pdos.csail.mit.edu/6.S081/2023/index.html" target="_blank">Fall 2023</a>
+
+- Other References：<br>
+    - <a href="https://github.com/duguosheng/6.S081-All-in-one" target="_blank">翻译项目</a><br>
+
+
 
 # Computer Network
 ## Stanford CS144: Computer Network

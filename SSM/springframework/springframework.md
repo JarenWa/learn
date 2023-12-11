@@ -5,7 +5,7 @@ date: 2023-11-15
 permalink: /tech/SSM/springframework/
 ---
 <p style="font-size:30px;">SpringFramework</p>
-<a href="https://zhuanlan.zhihu.com/p/557762402" target="_blank">真香！这篇文章终于让我弄懂了啥是Spring framework - 知乎</a>
+
 <p style="font-size:20px;">目录</p>
 <!-- TOC -->
 
@@ -16,8 +16,12 @@ permalink: /tech/SSM/springframework/
     - [组件和组件管理](#组件和组件管理)
     - [Spring IoC 容器接口和实现类](#spring-ioc-容器接口和实现类)
     - [Spring IoC 容器的配置方式](#spring-ioc-容器的配置方式)
-        - [注解](#注解)
-        - [Java配置类](#java配置类)
+    - [使用基于Java注解的配置方式创建和使用Spring容器](#使用基于java注解的配置方式创建和使用spring容器)
+        - [Bean注解标记和扫描](#bean注解标记和扫描)
+        - [Bean作用域注解](#bean作用域注解)
+        - [Bean周期方法注解](#bean周期方法注解)
+        - [Bean属性赋值：引用类型自动装配（DI）](#bean属性赋值引用类型自动装配di)
+        - [Bean属性赋值：基本类型属性赋值（DI）](#bean属性赋值基本类型属性赋值di)
 - [3 Spring AOP](#3-spring-aop)
 - [4 Spring 声明式事务](#4-spring-声明式事务)
 - [5 总结](#5-总结)
@@ -89,10 +93,57 @@ XML配置、注解、Java配置类
 在SpringBoot框架下，推崇“0配置文件” 不用xml配置
 
 用配置类+注解
-### 注解
 
-### Java配置类
 
+## 使用基于Java注解的配置方式创建和使用Spring容器
+组件交给Spring IoC 容器管理，并获取和使用的步骤：
+配置元数据--实例化IoC容器--获取组件(Bean)
+
+1、类上添加IoC注解
+
+2、（提高性能）告诉SpringIoC容器，在哪些包下添加了IoC注解（用xml文件 指定注解生效包的信息）
+
+### Bean注解标记和扫描
+1 准备组件类：普通组件、Controller组件、Service组件、Dao组件
+
+Spring 提供了以下多个注解，这些注解可以直接标注在 Java 类上，将它们定义成 Spring Bean。
+
+|注解|说明|
+|-|-|
+|@Component|该注解用于描述 Spring 中的 Bean，它是一个泛化的概念，仅仅表示容器中的一个组件（Bean），并且可以作用在应用的任何层次，例如 Service 层、Dao 层等。 使用时只需将该注解标注在相应类上即可。|
+|@Repository|该注解用于将数据访问层（Dao 层）的类标识为 Spring 中的 Bean，其功能与 @Component 相同。|
+|@Service|该注解通常作用在业务层（Service 层），用于将业务层的类标识为 Spring 中的 Bean，其功能与 @Component 相同。|
+|@Controller|该注解通常作用在控制层（如SpringMVC 的 Controller），用于将控制层的类标识为 Spring 中的 Bean，其功能与 @Component 相同。|
+
+> 理解：不同注解对于Spring使用IOC容器管理这些组件来说没有区别，也就是语法层面没有区别。所以@Controller、@Service、@Repository这三个注解只是给开发人员看的，让我们能够便于分辨组件的作用。
+
+> !!!@Repository 能够启动与Spring数据访问相关联的其他功能 
+
+2 xml配置文件确定扫描范围
+
+在resources下添加.xml配置文件
+
+```
+<!--1. 普通配置包扫描
+           base-package 指定ioc容器去哪些包下查找注解类 -> ioc容器
+           一个包或者多个包  com.atguigu,com.atguigu.xxx 包,包
+           指定包,相当于指定了子包内的所有类
+    -->
+    <context:component-scan base-package="com.atguigu.ioc_01" />
+```
+
+### Bean作用域注解
+
+
+
+### Bean周期方法注解
+
+
+周期方法：定义当 IoC 容器在实例化（之后）、销毁（之前） 组件对象时的操作
+
+### Bean属性赋值：引用类型自动装配（DI）
+
+### Bean属性赋值：基本类型属性赋值（DI）
 
 
 # 3 Spring AOP
