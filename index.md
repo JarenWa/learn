@@ -76,6 +76,11 @@ shell | git | vim | docker | mysql | ......
   Halo(未二次开发) | 仿牛客论坛 | ......
  </div>
 
+---
+
+<div align="center">
+  <h1><a href="./learnpages/fixes.html"><span style="color: #87CEEB">Fixes</span></a></h1>
+ </div>
 
 
 ---
