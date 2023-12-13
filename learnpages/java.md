@@ -1,10 +1,10 @@
 <p style="font-size:30px;">Java</p>
 
-<a href="https://web.mit.edu/6.031/www/sp21/classes/06-specifications/">软件设计规范1（From mit 6.031: Software Construction）</a>
+<a href="https://web.mit.edu/6.031/www/sp21/classes/06-specifications/" target="_blank">软件设计规范1（From mit 6.031: Software Construction）</a>
 
-<a href="https://web.mit.edu/6.031/www/sp21/classes/07-designing-specs/">软件设计规范2（From mit 6.031: Software Construction）</a>
+<a href="https://web.mit.edu/6.031/www/sp21/classes/07-designing-specs/" target="_blank">软件设计规范2（From mit 6.031: Software Construction）</a>
 
-<a href="https://docs.oracle.com/javase/tutorial/java/">The fundamentals of programming in the Java programming language.</a>
+<a href="https://docs.oracle.com/javase/tutorial/java/" target="_blank">The fundamentals of programming in the Java programming language.</a>
 
 ---
 
