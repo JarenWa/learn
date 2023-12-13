@@ -30,6 +30,10 @@ Tomcat 是一个Web应用服务器
 
 <a href="https://zhuanlan.zhihu.com/p/557762402" target="_blank">真香！这篇文章终于让我弄懂了啥是Spring framework - 知乎</a>
 
+<a href="https://developer.aliyun.com/article/924622" target="_blank">Spring注解(六)：Bean的生命周期中自定义初始化和销毁方法的四种方式</a>
+
+<a href="https://www.cnblogs.com/caoweixiong/p/15650333.html" target="_blank">Spring——项目优雅停机</a>
+
 <a href="https://zhuanlan.zhihu.com/p/57747179" target="_blank">为什么我们需要依赖注入？</a>
 
 <a href="https://zhuanlan.zhihu.com/p/67032669" target="_blank">理解依赖注入（DI – Dependency Injection）</a>

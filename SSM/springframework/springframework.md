@@ -131,17 +131,110 @@ Spring 提供了以下多个注解，这些注解可以直接标注在 Java 类�
     -->
     <context:component-scan base-package="com.atguigu.ioc_01" />
 ```
+其他xml配置格式使用时查询即可
 
 ### Bean作用域注解
+```
+@Scope(scopeName = ConfigurableBeanFactory.SCOPE_SINGLETON) //单例,默认值
+@Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE) //多例  二选一
+```
+1. Bean作用域概念
 
+    `<bean` 标签声明Bean，只是将Bean的信息配置给SpringIoC容器！
+
+    在IoC容器中，这些`<bean`标签对应的信息转成Spring内部 `BeanDefinition` 对象，`BeanDefinition` 对象内，包含定义的信息（id,class,属性等等）！
+
+    这意味着，`BeanDefinition`与`类`概念一样，SpringIoC容器可以可以根据`BeanDefinition`对象反射创建多个Bean对象实例。
+
+    具体创建多少个Bean的实例对象，由Bean的作用域Scope属性指定！
+2. 作用域可选值
+
+|取值|含义|创建对象的时机|默认值|
+|-|-|-|-|
+|singleton|在 IOC 容器中，这个 bean 的对象始终为单实例|IOC 容器初始化时|是|
+|prototype|这个 bean 在 IOC 容器中有多个实例|获取 bean 时|否|
+
+
+  如果是在WebApplicationContext环境下还会有另外两个作用域（但不常用）：
+
+|取值|含义|创建对象的时机|默认值|
+|-|-|-|-|
+|request|请求范围内有效的实例|每次请求|否|
+|session|会话范围内有效的实例|每次会话|否|
 
 
 ### Bean周期方法注解
-
-
 周期方法：定义当 IoC 容器在实例化（之后）、销毁（之前） 组件对象时的操作
 
+从Java EE 5规范开始，Servlet中增加了两个影响Servlet生命周期的注解，分别是：@PostConstruct和@PreDestroy。
+
+@PostConstruct 注解：
+
+用于在对象初始化阶段执行一些必要的操作。<br>
+方法会在对象的构造函数之后、依赖注入完成之后被调用。<br>
+通常用于在 Bean 初始化时执行一些操作，例如初始化资源、配置等。<br>
+在 Spring 应用程序中，会在 Spring 容器初始化 Bean 时执行。<br>
+
+@PreDestroy 注解：
+
+用于在销毁 Bean 之前执行一些清理操作。<br>
+方法会在容器销毁 Bean 之前被调用。<br>
+通常用于在销毁 Bean 之前执行一些操作，例如关闭资源连接、释放资源等。<br>
+在 Spring 应用程序中，会在 Spring 容器销毁 Bean 时执行。<br>
+
+```
+@Service
+public class TestPeriodMethod {
+
+    public TestPeriodMethod() {
+        System.out.println("创建");
+    }
+
+    //对象创建并赋值之后调用
+    @PostConstruct
+    public void init() {
+        System.out.println("初始化");
+    }
+
+    //对象被从ioc容器中移除之前调用
+    @PreDestroy
+    public void destroy() {
+        System.out.println("即将被销毁");
+    }
+}
+
+   @Test
+    public void test() {
+        ClassPathXmlApplicationContext applicationContext
+                = new ClassPathXmlApplicationContext("spring-jaren.xml");
+        TestPeriodMethod periodMethod = applicationContext.getBean(TestPeriodMethod.class);
+        System.out.println(periodMethod);
+        applicationContext.close();
+        System.out.println(periodMethod);
+    }
+
+```
+结果
+```
+创建
+初始化
+com.atguigu.ioc_jaren.TestPeriodMethod@452e19ca
+即将被销毁
+com.atguigu.ioc_jaren.TestPeriodMethod@452e19ca
+```
+深入的Bean生命管理将进一步讨论：
+
+
+
 ### Bean属性赋值：引用类型自动装配（DI）
+```
+/**
+     * 情况1: ${key} 取外部配置key对应的值!
+     * 情况2: ${key:defaultValue} 没有key,可以给与默认值
+     */
+    @Value("${catalog:hahaha}")
+    private String name;
+```
 
 ### Bean属性赋值：基本类型属性赋值（DI）
 
