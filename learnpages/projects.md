@@ -21,7 +21,9 @@ Java Web 项目开发流程和设计技术详细梳理
 
 
 ---
+Model是什么
 
+GET POST方法区别
 
 Http等协议:
 
