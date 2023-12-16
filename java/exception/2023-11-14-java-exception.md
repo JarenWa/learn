@@ -1,8 +1,17 @@
 <p style="font-size:30px;">Java-Exception</p>
+
+---
+
+## References
+https://pdai.tech/md/java/basic/java-basic-x-exception.html
+
+---
+
 <p style="font-size:20px;">目录</p>
 
 <!-- TOC -->
 
+- [References](#references)
 - [如何对待异常](#如何对待异常)
 - [异常的抛出机制](#异常的抛出机制)
 - [异常的体系结构](#异常的体系结构)
