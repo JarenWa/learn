@@ -1,10 +1,4 @@
----
-layout: post
-title: "maven"
-date: 2023-11-15
-permalink: /tech/SSM/maven/
----
-<p style="font-size:20px;">Maven</p>
+<p style="font-size:30px;">Maven</p>
 
 <p style="font-size:20px;">目录</p>
 <a href ="#1"> 1 Maven 简介 </a><br>

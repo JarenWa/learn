@@ -1,9 +1,3 @@
----
-layout: post
-title: "springframework"
-date: 2023-11-15
-permalink: /tech/SSM/springframework/
----
 <p style="font-size:30px;">SpringFramework</p>
 
 <p style="font-size:20px;">目录</p>
