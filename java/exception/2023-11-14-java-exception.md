@@ -1,8 +1,11 @@
 <p style="font-size:30px;">Java-Exception</p>
+Java 异常都是对象，是 Throwable 子类的实例，描述了出现在一段编码中的错误条件。当条件生成时，错误将引发异常。
+
 
 ---
 
-## References
+References
+
 https://pdai.tech/md/java/basic/java-basic-x-exception.html
 
 ---
@@ -11,25 +14,30 @@ https://pdai.tech/md/java/basic/java-basic-x-exception.html
 
 <!-- TOC -->
 
-- [References](#references)
 - [如何对待异常](#如何对待异常)
-- [异常的抛出机制](#异常的抛出机制)
 - [异常的体系结构](#异常的体系结构)
-- [抓抛模型](#抓抛模型)
-- [使用细节](#使用细节)
-- [finally](#finally)
-    - [fianally 基本使用](#fianally-基本使用)
-    - [fianally 使用场景](#fianally-使用场景)
-    - [final finally finalize](#final-finally-finalize)
+- [异常的捕获](#异常的捕获)
+- [2 异常处理一 捕获异常 try-catch-finally](#2-异常处理一-捕获异常-try-catch-finally)
+    - [抓抛模型](#抓抛模型)
+    - [使用细节](#使用细节)
+    - [finally](#finally)
+        - [fianally 基本使用](#fianally-基本使用)
+        - [fianally 使用场景](#fianally-使用场景)
+        - [final finally finalize](#final-finally-finalize)
+- [3 异常处理二 throws + 异常类型](#3-异常处理二-throws--异常类型)
 
 <!-- /TOC -->
 
-## 如何对待异常
+# 如何对待异常
  对于程序出现的异常，一般有两种解决方法：一是遇到错误就终止程序的运行。另一种方法是程序员在编写程序时，就充分考虑到各种可能发生的异常和错误，极力预防和避免。实在无法避免的，要编写相应的代码进行异常的检测、以及`异常的处理`，保证代码的`健壮性`。
-## 异常的抛出机制
+
+ 异常的抛出机制
+ 
 Java中把不同的异常用不同的类表示，一旦发生某种异常，就`创建该异常类型的对象`，并且抛出（throw）。<br>
 然后程序员可以捕获(catch)到这个异常对象，并处理；如果没有捕获(catch)这个异常对象，那么这个异常对象将会导致程序终止。<br>
-## 异常的体系结构
+
+# 异常的体系结构
+![Alt text](image.png)
 java.lang.Throwable:异常体系的根父类，分为Error和Exception<br>
 
     |---java.lang.Error:错误。Java虚拟机无法解决的严重问题。如：JVM系统内部错误、资源耗尽等严重情况。一般不编写针对性的代码进行处理。
@@ -56,8 +64,16 @@ java.lang.Throwable:异常体系的根父类，分为Error和Exception<br>
 
 The Java Language Specification calls any exceptions that derives from the class `Error` or class `RuntimeException` an `unchecked` exception. All other exceptions are called `checked` exceptions.
 
+# 异常的捕获
+异常捕获处理的方法通常有：
 
-<h1 id="2"> 2 异常处理一 捕获异常 try-catch-finally</h1>
+try-catch
+try-catch-finally
+try-finally
+try-with-resource
+try-catch
+
+# 2 异常处理一 捕获异常 try-catch-finally
 
 ## 抓抛模型
 过程1：“抛”
@@ -113,7 +129,7 @@ catch和finally语句是可选的，但try不能单独使用<br>
 ### final finally finalize
 没有联系
 
-<h1 id="3"> 3 异常处理二 throws + 异常类型</h1>
+# 3 异常处理二 throws + 异常类型
 把异常报给调用者
 
 格式
